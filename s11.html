@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Windows Server 2022 Administration</title>
+<link href="styles.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+</head>
+<body>
+<!-- Background Elements -->
+<div class="bg-gradient"></div>
+<div class="floating-shapes">
+<div class="shape shape-1"></div>
+<div class="shape shape-2"></div>
+<div class="shape shape-3"></div>
+</div>
+<!-- Header -->
+<header class="glassmorphism-header">
+<!-- Navigation -->
+<nav class="modern-nav">
+<div class="nav-container">
+<button class="nav-scroll-btn left-scroll" id="leftScroll">
+<i class="fas fa-chevron-left"></i>
+</button>
+<ul class="nav-carousel" id="navCarousel">
+<li class="nav-item">
+<a class="nav-link" href="index.html">
+<div class="nav-icon">
+<span class="nav-number">0</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Windows Server 2022 Administration</span>
+<span class="nav-subtitle">6 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s2.html">
+<div class="nav-icon">
+<span class="nav-number">1</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Introducing Windows Server 2022</span>
+<span class="nav-subtitle">22 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s3.html">
+<div class="nav-icon">
+<span class="nav-number">2</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Active Directory Domain Services on Windows Server 2022</span>
+<span class="nav-subtitle">46 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s4.html">
+<div class="nav-icon">
+<span class="nav-number">3</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Managing DHCP Dynamic Host Configuration Protocol</span>
+<span class="nav-subtitle">11 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s5.html">
+<div class="nav-icon">
+<span class="nav-number">4</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Managing DNS Domain Naming Service</span>
+<span class="nav-subtitle">14 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s6.html">
+<div class="nav-icon">
+<span class="nav-number">5</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Managing File Servers and Storage</span>
+<span class="nav-subtitle">32 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s7.html">
+<div class="nav-icon">
+<span class="nav-number">6</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Implementing HyperV Virtualization</span>
+<span class="nav-subtitle">22 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s8.html">
+<div class="nav-icon">
+<span class="nav-number">7</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Implementing Windows Print Server</span>
+<span class="nav-subtitle">15 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s9.html">
+<div class="nav-icon">
+<span class="nav-number">8</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Disaster Recovery on Windows Server 2022</span>
+<span class="nav-subtitle">7 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s10.html">
+<div class="nav-icon">
+<span class="nav-number">9</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Implementing WSUS on Windows Server 2022</span>
+<span class="nav-subtitle">8 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="s11.html">
+<div class="nav-icon">
+<span class="nav-number">10</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Implementing Remote Access on Windows Server 2022</span>
+<span class="nav-subtitle">7 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s12.html">
+<div class="nav-icon">
+<span class="nav-number">11</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Managing SAN Storage and Failover Clustering</span>
+<span class="nav-subtitle">11 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s13.html">
+<div class="nav-icon">
+<span class="nav-number">12</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Performance Monitoring in Windows Server 2022</span>
+<span class="nav-subtitle">12 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s14.html">
+<div class="nav-icon">
+<span class="nav-number">13</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Microsoft Azure Introduction</span>
+<span class="nav-subtitle">13 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li></ul>
+<button class="nav-scroll-btn right-scroll" id="rightScroll">
+<i class="fas fa-chevron-right"></i>
+</button>
+</div>
+</nav>
+</header>
+<!-- Floating Navigation -->
+<button class="floating-nav left-nav" onclick="navigate('s10.html')">
+<i class="fas fa-chevron-left"></i>
+</button>
+<button class="floating-nav right-nav" onclick="navigate('s12.html')">
+<i class="fas fa-chevron-right"></i>
+</button>
+<!-- Main Content -->
+<main class="main-container">
+<div class="content-wrapper">
+<div class="header-content">
+<div class="logo-section">
+<div class="logo-icon">
+<i class="fas fa-play-circle"></i>
+</div>
+<h1 class="app-title">Windows Server 2022 Administration</h1>
+</div>
+<!-- Progress Indicator -->
+<div class="progress-indicator">
+<div class="progress-bar">
+<div class="progress-fill" style="width: 78.57142857142857%"></div>
+</div>
+<span class="progress-text">11 of 14</span>
+</div>
+</div>
+<!-- Video sections will be inserted here -->
+
+<section class="video-section glassmorphism" data-video-index="0" id="section184">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">1</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Implementing Remote Access on Windows Server 2022</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/19XDSLw9_GPqmokHhh6Mh52L9hvqFCkdv/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section184">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section184">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" disabled="" onclick="navigateToSection('prev', 0)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 0)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-184" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-184" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-184" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="184" id="notes184" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="1" id="section185">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">2</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Lesson 1</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/19VnowK26zcbjDQRSRKInUJ8e_fYjj-tp/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section185">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section185">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 1)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 1)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-185" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-185" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-185" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="185" id="notes185" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="2" id="section186">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">3</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">VPN Scenarios</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/19Y9WjGQziUr6DClwo89fbBHv15T-qNOD/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section186">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section186">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 2)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 2)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-186" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-186" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-186" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="186" id="notes186" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="3" id="section187">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">4</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Understanding Tunneling Protocols</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/19YhYI4fNbc083ftVNoeWQGE1MFu6Bo34/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section187">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section187">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 3)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 3)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-187" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-187" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-187" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="187" id="notes187" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="4" id="section188">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">5</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Understanding Authentication Protocols</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/19aSofRqEPukKXj3Qz5iBxhhGJIamqL4Y/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section188">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section188">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 4)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 4)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-188" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-188" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-188" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="188" id="notes188" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="5" id="section189">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">6</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Demo Installing and Configuring Remote Access</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/19eA6B60HCLCYUacs8qorDJjDzjRYY0Aq/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section189">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section189">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 5)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 5)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-189" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-189" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-189" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="189" id="notes189" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="6" id="section190">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">7</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Demo VPN Client</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/19hrlELExm4Feo8X-nU6p6ft8ig1T-EyX/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section190">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section190">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 6)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 6)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-190" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-190" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-190" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="190" id="notes190" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Floating Action Buttons -->
+<div class="fab-container">
+<div class="fab-menu">
+<button class="fab main-fab" id="mainFab">
+<i class="fas fa-plus"></i>
+</button>
+<div class="fab-options">
+<button class="fab option-fab" id="exportButton" title="Export Progress">
+<i class="fas fa-download"></i>
+</button>
+<button class="fab option-fab" id="importDataButton" title="Import Progress">
+<i class="fas fa-upload"></i>
+</button>
+<button class="fab option-fab home-fab" onclick="window.location.href='https://brahimsaa.github.io/all';" title="Home">
+<i class="fas fa-home"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Hidden File Input -->
+<input accept=".json" id="importButton" style="display: none;" type="file"/>
+<!-- Loading Overlay -->
+<div class="loading-overlay" id="loadingOverlay">
+<div class="loading-spinner">
+<div class="spinner"></div>
+<p>Loading content...</p>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

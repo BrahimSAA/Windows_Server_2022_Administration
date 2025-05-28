@@ -1,0 +1,2694 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Windows Server 2022 Administration</title>
+<link href="styles.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+</head>
+<body>
+<!-- Background Elements -->
+<div class="bg-gradient"></div>
+<div class="floating-shapes">
+<div class="shape shape-1"></div>
+<div class="shape shape-2"></div>
+<div class="shape shape-3"></div>
+</div>
+<!-- Header -->
+<header class="glassmorphism-header">
+<!-- Navigation -->
+<nav class="modern-nav">
+<div class="nav-container">
+<button class="nav-scroll-btn left-scroll" id="leftScroll">
+<i class="fas fa-chevron-left"></i>
+</button>
+<ul class="nav-carousel" id="navCarousel">
+<li class="nav-item">
+<a class="nav-link" href="index.html">
+<div class="nav-icon">
+<span class="nav-number">0</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Windows Server 2022 Administration</span>
+<span class="nav-subtitle">6 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s2.html">
+<div class="nav-icon">
+<span class="nav-number">1</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Introducing Windows Server 2022</span>
+<span class="nav-subtitle">22 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s3.html">
+<div class="nav-icon">
+<span class="nav-number">2</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Active Directory Domain Services on Windows Server 2022</span>
+<span class="nav-subtitle">46 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s4.html">
+<div class="nav-icon">
+<span class="nav-number">3</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Managing DHCP Dynamic Host Configuration Protocol</span>
+<span class="nav-subtitle">11 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s5.html">
+<div class="nav-icon">
+<span class="nav-number">4</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Managing DNS Domain Naming Service</span>
+<span class="nav-subtitle">14 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="s6.html">
+<div class="nav-icon">
+<span class="nav-number">5</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Managing File Servers and Storage</span>
+<span class="nav-subtitle">32 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s7.html">
+<div class="nav-icon">
+<span class="nav-number">6</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Implementing HyperV Virtualization</span>
+<span class="nav-subtitle">22 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s8.html">
+<div class="nav-icon">
+<span class="nav-number">7</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Implementing Windows Print Server</span>
+<span class="nav-subtitle">15 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s9.html">
+<div class="nav-icon">
+<span class="nav-number">8</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Disaster Recovery on Windows Server 2022</span>
+<span class="nav-subtitle">7 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s10.html">
+<div class="nav-icon">
+<span class="nav-number">9</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Implementing WSUS on Windows Server 2022</span>
+<span class="nav-subtitle">8 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s11.html">
+<div class="nav-icon">
+<span class="nav-number">10</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Implementing Remote Access on Windows Server 2022</span>
+<span class="nav-subtitle">7 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s12.html">
+<div class="nav-icon">
+<span class="nav-number">11</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Managing SAN Storage and Failover Clustering</span>
+<span class="nav-subtitle">11 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s13.html">
+<div class="nav-icon">
+<span class="nav-number">12</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Performance Monitoring in Windows Server 2022</span>
+<span class="nav-subtitle">12 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="s14.html">
+<div class="nav-icon">
+<span class="nav-number">13</span>
+</div>
+<div class="nav-content">
+<span class="nav-title">Microsoft Azure Introduction</span>
+<span class="nav-subtitle">13 videos</span>
+</div>
+<div class="nav-indicator"></div>
+</a>
+</li></ul>
+<button class="nav-scroll-btn right-scroll" id="rightScroll">
+<i class="fas fa-chevron-right"></i>
+</button>
+</div>
+</nav>
+</header>
+<!-- Floating Navigation -->
+<button class="floating-nav left-nav" onclick="navigate('s5.html')">
+<i class="fas fa-chevron-left"></i>
+</button>
+<button class="floating-nav right-nav" onclick="navigate('s7.html')">
+<i class="fas fa-chevron-right"></i>
+</button>
+<!-- Main Content -->
+<main class="main-container">
+<div class="content-wrapper">
+<div class="header-content">
+<div class="logo-section">
+<div class="logo-icon">
+<i class="fas fa-play-circle"></i>
+</div>
+<h1 class="app-title">Windows Server 2022 Administration</h1>
+</div>
+<!-- Progress Indicator -->
+<div class="progress-indicator">
+<div class="progress-bar">
+<div class="progress-fill" style="width: 42.857142857142854%"></div>
+</div>
+<span class="progress-text">6 of 14</span>
+</div>
+</div>
+<!-- Video sections will be inserted here -->
+
+<section class="video-section glassmorphism" data-video-index="0" id="section100">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">1</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Managing File Servers and Storage</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1HkhGfmO-Buln9hGnXpbPbRw_Jo-t7UYj/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section100">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section100">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" disabled="" onclick="navigateToSection('prev', 0)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 0)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-100" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-100" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-100" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="100" id="notes100" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="1" id="section101">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">2</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Lesson 1</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1IAo7uzzgGsES4o3vNsvRsXxiiamC2ULn/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section101">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section101">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 1)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 1)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-101" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-101" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-101" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="101" id="notes101" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="2" id="section102">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">3</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">File System Overview</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1IbGdG2sw16XBC3BVR9OZZ9VaxOBNezZP/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section102">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section102">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 2)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 2)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-102" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-102" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-102" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="102" id="notes102" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="3" id="section103">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">4</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">NTFS Permission Overview</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1IzmhGs1G9CfGVxxfzJIa7tIZ11tDKTs4/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section103">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section103">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 3)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 3)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-103" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-103" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-103" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="103" id="notes103" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="4" id="section104">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">5</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">NTFS Permission Diagram</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1JA6Etm_SPu_0583FKcXcfSutTzpZlOou/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section104">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section104">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 4)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 4)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-104" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-104" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-104" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="104" id="notes104" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="5" id="section105">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">6</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Share Permission</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1JB51p-x6wUrwbzBPyzecRMgq98wWFk47/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section105">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section105">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 5)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 5)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-105" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-105" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-105" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="105" id="notes105" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="6" id="section106">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">7</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Demo NTFS and Share Permission</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1JNBVmruUvp2T9SkSz9grTQ-Bk7Ccaw45/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section106">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section106">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 6)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 6)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-106" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-106" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-106" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="106" id="notes106" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="7" id="section107">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">8</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Demo NTFS Deny Permission</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1JTFE_lsVz3KSoyHihnwez-Y4omAYwz5C/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section107">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section107">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 7)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 7)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-107" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-107" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-107" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="107" id="notes107" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="8" id="section108">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">9</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Demo Advanced Permission</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1JvjIF3CVRLHK54rBsEb2w0UcP0pwHRuP/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section108">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section108">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 8)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 8)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-108" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-108" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-108" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="108" id="notes108" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="9" id="section109">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">10</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Demo NTFS Inheritance</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1HptWMqYjoivqUEzHnsCvcnmIULtlQ31P/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section109">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section109">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 9)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 9)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-109" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-109" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-109" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="109" id="notes109" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="10" id="section110">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">11</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">File Server Resource Manager FSRM</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1HdqFlB19yo-RmtfsK1DYKE5DtUUn25Fv/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section110">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section110">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 10)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 10)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-110" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-110" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-110" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="110" id="notes110" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="11" id="section111">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">12</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Demo Installing FSRM</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1Hs4Zo_jTp2zN-6SBnkGjnPSzqPNKImZi/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section111">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section111">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 11)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 11)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-111" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-111" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-111" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="111" id="notes111" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="12" id="section112">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">13</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Demo Quota Template</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1I-ZOac-Zge5IaTC9VPKXVLHy9QOr0G4N/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section112">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section112">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 12)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 12)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-112" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-112" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-112" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="112" id="notes112" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="13" id="section113">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">14</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Demo File Screen</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1I1elEi5dAdGwqs5qeh4-3P_11DCCvADc/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section113">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section113">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 13)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 13)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-113" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-113" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-113" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="113" id="notes113" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="14" id="section114">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">15</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Lesson 2</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1I5ZTsx9P5pyAlLj03arqF1lM-L5ms7yW/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section114">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section114">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 14)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 14)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-114" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-114" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-114" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="114" id="notes114" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="15" id="section115">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">16</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Basic and Dynamic Disks</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1I8Q0oiifMa1KayoXaFPsmb5mvnu4d2Nn/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section115">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section115">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 15)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 15)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-115" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-115" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-115" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="115" id="notes115" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="16" id="section116">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">17</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Demo RAID</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1I8gjrSOu5ezW-9t-L7u5zPSOrh-7JQZF/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section116">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section116">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 16)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 16)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-116" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-116" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-116" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="116" id="notes116" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="17" id="section117">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">18</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Demo Virtual Hard Disk VHDX</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1IAfhYXFobk4IBA4AdhPs8PN5n3NK3VjL/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section117">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section117">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 17)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 17)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-117" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-117" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-117" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="117" id="notes117" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="18" id="section118">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">19</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Lesson 3</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1IBb4vcZZ-nKdt0KIA6p3X8YMPx2PhuTr/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section118">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section118">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 18)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 18)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-118" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-118" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-118" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="118" id="notes118" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="19" id="section119">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">20</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Storage Pool</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1IBv_R_KTX4kosj1j5_hTwCzEl4dYIrY5/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section119">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section119">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 19)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 19)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-119" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-119" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-119" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="119" id="notes119" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="20" id="section120">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">21</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Demo Storage Pool</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1IFewJkZErAJ7yTYAo8KAoAKyvXEbxRmT/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section120">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section120">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 20)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 20)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-120" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-120" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-120" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="120" id="notes120" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="21" id="section121">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">22</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Lesson 4</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1IGAWYeGComYpBIyyCl2RYyIjzKN1qlFP/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section121">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section121">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 21)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 21)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-121" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-121" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-121" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="121" id="notes121" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="22" id="section122">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">23</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Data Deduplication Overview</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1ILW3z6zUGiACwYtOFGfjtV-JHJCgfTs6/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section122">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section122">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 22)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 22)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-122" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-122" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-122" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="122" id="notes122" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="23" id="section123">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">24</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Deduplication Process</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1IGV5IOYUyC7qjin8dA_gMiH-0dMG8caX/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section123">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section123">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 23)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 23)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-123" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-123" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-123" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="123" id="notes123" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="24" id="section124">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">25</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Plan and Deploy Data Deduplication</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1ILvFdbuoQIP8KLmBIXaBMG2l03R9qIZO/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section124">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section124">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 24)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 24)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-124" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-124" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-124" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="124" id="notes124" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="25" id="section125">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">26</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Demo Data Deduplication</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1IMZ1Eh75SOTOPjgQybXeySq-4X2nrrts/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section125">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section125">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 25)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 25)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-125" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-125" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-125" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="125" id="notes125" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="26" id="section126">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">27</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Data Deduplication Backup</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1IZyoD_UsOPBqUjHcH45y2M0l1z4jiZ4P/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section126">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section126">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 26)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 26)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-126" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-126" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-126" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="126" id="notes126" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="27" id="section127">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">28</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Lesson 5</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1IVUgDoGrOUjqF-or32jPCGn6op8jrljZ/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section127">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section127">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 27)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 27)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-127" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-127" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-127" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="127" id="notes127" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="28" id="section128">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">29</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">DFS Namespace</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1Ib0r-gHEJXKQrK7N19PuiW--5qInip6w/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section128">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section128">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 28)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 28)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-128" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-128" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-128" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="128" id="notes128" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="29" id="section129">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">30</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">DFS Replication</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1IcKk7s4QIc8fkatY_5YMt_TOsMh6WeDJ/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section129">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section129">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 29)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 29)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-129" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-129" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-129" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="129" id="notes129" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="30" id="section130">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">31</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Demo DFS Namespace</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1Ili60ZmpWzftFHA_gGdLRoouNk_2v1l0/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section130">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section130">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 30)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 30)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-130" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-130" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-130" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="130" id="notes130" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+<section class="video-section glassmorphism" data-video-index="31" id="section131">
+<div class="section-header">
+<div class="video-info">
+<div class="video-badge">
+<span class="badge-number">32</span>
+</div>
+<div class="video-meta">
+<h2 class="video-title">Demo DFS Replication</h2>
+<div class="video-status">
+<span class="status-dot"></span>
+<span class="status-text">Ready to watch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="video-container modern-player">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" class="video-iframe" loading="lazy" src="https://drive.google.com/file/d/1IugciicEaF1EVd0I35LjYC-5IAjhLU9p/preview">
+</iframe>
+</div>
+<div class="section-actions">
+<div class="action-group completion-group">
+<button class="action-btn complete-btn" data-section="section131">
+<div class="btn-content">
+<i class="fas fa-check-circle"></i>
+<span>Mark Complete</span>
+</div>
+</button>
+<button class="action-btn unmark-btn" data-section="section131">
+<div class="btn-content">
+<i class="fas fa-times-circle"></i>
+<span>Unmark</span>
+</div>
+</button>
+</div>
+<div class="action-group navigation-group">
+<button class="action-btn nav-btn prev-btn" onclick="navigateToSection('prev', 31)">
+<div class="btn-content">
+<i class="fas fa-chevron-left"></i>
+<span>Previous</span>
+</div>
+</button>
+<button class="action-btn nav-btn next-btn" onclick="navigateToSection('next', 31)">
+<div class="btn-content">
+<span>Next</span>
+<i class="fas fa-chevron-right"></i>
+</div>
+</button>
+</div>
+</div>
+<div class="notes-container">
+<div class="notes-header">
+<div class="notes-title">
+<i class="fas fa-sticky-note"></i>
+<span>Your Notes</span>
+</div>
+<div class="notes-tools">
+<button class="tool-btn" id="bold-131" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-131" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
+<button class="tool-btn" id="clear-131" title="Clear Notes">
+<i class="fas fa-trash"></i>
+</button>
+</div>
+</div>
+<div class="notes-input-container">
+<textarea class="notes-input" data-video-id="131" id="notes131" placeholder="Write your notes and thoughts about this video..."></textarea>
+<div class="notes-counter">
+<span class="char-count">0</span>
+<span class="char-limit">/ 5000</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Floating Action Buttons -->
+<div class="fab-container">
+<div class="fab-menu">
+<button class="fab main-fab" id="mainFab">
+<i class="fas fa-plus"></i>
+</button>
+<div class="fab-options">
+<button class="fab option-fab" id="exportButton" title="Export Progress">
+<i class="fas fa-download"></i>
+</button>
+<button class="fab option-fab" id="importDataButton" title="Import Progress">
+<i class="fas fa-upload"></i>
+</button>
+<button class="fab option-fab home-fab" onclick="window.location.href='https://brahimsaa.github.io/all';" title="Home">
+<i class="fas fa-home"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Hidden File Input -->
+<input accept=".json" id="importButton" style="display: none;" type="file"/>
+<!-- Loading Overlay -->
+<div class="loading-overlay" id="loadingOverlay">
+<div class="loading-spinner">
+<div class="spinner"></div>
+<p>Loading content...</p>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

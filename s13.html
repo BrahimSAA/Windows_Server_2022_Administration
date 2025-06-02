@@ -207,33 +207,6 @@
 <button class="floating-nav right-nav" onclick="navigate('s14.html')">
 <i class="fas fa-chevron-right"></i>
 </button>
-<!-- Firebase Configuration Modal -->
-<div class="firebase-modal" id="firebaseModal">
-<div class="modal-content">
-<div class="modal-header">
-<h3 class="modal-title">Firebase Configuration</h3>
-<button class="close-btn" onclick="closeFirebaseModal()">×</button>
-</div>
-<div class="form-group">
-<label class="form-label">Firebase API Key:</label>
-<input class="form-input" id="apiKey" placeholder="Enter Firebase API key" type="password"/>
-<label class="form-label">Your Access Key:</label>
-<input class="form-input" id="userKey" placeholder="Enter your unique access key" type="text" value=""/>
-<small style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 5px; display: block;">
-                    This key will be used to securely store and retrieve your progress online.
-                </small>
-</div>
-<div class="modal-actions">
-<button class="modal-btn btn-secondary" onclick="closeFirebaseModal()">Cancel</button>
-<button class="modal-btn btn-primary" onclick="saveFirebaseConfig()">Save &amp; Sync</button>
-</div>
-<div class="status-message" id="modalStatus" style="display: none;"></div>
-</div>
-</div>
-<!-- Sync Status Indicator -->
-<div class="sync-status" id="syncStatus" style="display: none;">
-<i class="fas fa-cloud"></i> <span id="syncStatusText">Offline</span>
-</div>
 <!-- Main Content -->
 <main class="main-container">
 <div class="content-wrapper">
@@ -310,6 +283,12 @@
 <span>Your Notes</span>
 </div>
 <div class="notes-tools">
+<button class="tool-btn" id="bold-202" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-202" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
 <button class="tool-btn" id="clear-202" title="Clear Notes">
 <i class="fas fa-trash"></i>
 </button>
@@ -380,6 +359,12 @@
 <span>Your Notes</span>
 </div>
 <div class="notes-tools">
+<button class="tool-btn" id="bold-203" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-203" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
 <button class="tool-btn" id="clear-203" title="Clear Notes">
 <i class="fas fa-trash"></i>
 </button>
@@ -450,6 +435,12 @@
 <span>Your Notes</span>
 </div>
 <div class="notes-tools">
+<button class="tool-btn" id="bold-204" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-204" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
 <button class="tool-btn" id="clear-204" title="Clear Notes">
 <i class="fas fa-trash"></i>
 </button>
@@ -520,6 +511,12 @@
 <span>Your Notes</span>
 </div>
 <div class="notes-tools">
+<button class="tool-btn" id="bold-205" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-205" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
 <button class="tool-btn" id="clear-205" title="Clear Notes">
 <i class="fas fa-trash"></i>
 </button>
@@ -590,6 +587,12 @@
 <span>Your Notes</span>
 </div>
 <div class="notes-tools">
+<button class="tool-btn" id="bold-206" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-206" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
 <button class="tool-btn" id="clear-206" title="Clear Notes">
 <i class="fas fa-trash"></i>
 </button>
@@ -660,6 +663,12 @@
 <span>Your Notes</span>
 </div>
 <div class="notes-tools">
+<button class="tool-btn" id="bold-207" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-207" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
 <button class="tool-btn" id="clear-207" title="Clear Notes">
 <i class="fas fa-trash"></i>
 </button>
@@ -730,6 +739,12 @@
 <span>Your Notes</span>
 </div>
 <div class="notes-tools">
+<button class="tool-btn" id="bold-208" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-208" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
 <button class="tool-btn" id="clear-208" title="Clear Notes">
 <i class="fas fa-trash"></i>
 </button>
@@ -800,6 +815,12 @@
 <span>Your Notes</span>
 </div>
 <div class="notes-tools">
+<button class="tool-btn" id="bold-209" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-209" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
 <button class="tool-btn" id="clear-209" title="Clear Notes">
 <i class="fas fa-trash"></i>
 </button>
@@ -870,6 +891,12 @@
 <span>Your Notes</span>
 </div>
 <div class="notes-tools">
+<button class="tool-btn" id="bold-210" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-210" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
 <button class="tool-btn" id="clear-210" title="Clear Notes">
 <i class="fas fa-trash"></i>
 </button>
@@ -940,6 +967,12 @@
 <span>Your Notes</span>
 </div>
 <div class="notes-tools">
+<button class="tool-btn" id="bold-211" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-211" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
 <button class="tool-btn" id="clear-211" title="Clear Notes">
 <i class="fas fa-trash"></i>
 </button>
@@ -1010,6 +1043,12 @@
 <span>Your Notes</span>
 </div>
 <div class="notes-tools">
+<button class="tool-btn" id="bold-212" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-212" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
 <button class="tool-btn" id="clear-212" title="Clear Notes">
 <i class="fas fa-trash"></i>
 </button>
@@ -1080,6 +1119,12 @@
 <span>Your Notes</span>
 </div>
 <div class="notes-tools">
+<button class="tool-btn" id="bold-213" title="Bold">
+<i class="fas fa-bold"></i>
+</button>
+<button class="tool-btn" id="italic-213" title="Italic">
+<i class="fas fa-italic"></i>
+</button>
 <button class="tool-btn" id="clear-213" title="Clear Notes">
 <i class="fas fa-trash"></i>
 </button>
@@ -1109,12 +1154,6 @@
 <button class="fab option-fab" id="importDataButton" title="Import Progress">
 <i class="fas fa-upload"></i>
 </button>
-<button class="fab option-fab" id="firebaseButton" title="Change Cloud User">
-<i class="fas fa-cloud"></i>
-</button>
-<button class="fab option-fab" onclick="syncToFirebase()" title="Sync Now">
-<i class="fas fa-sync"></i>
-</button>
 <button class="fab option-fab home-fab" onclick="window.location.href='https://brahimsaa.github.io/all';" title="Home">
 <i class="fas fa-home"></i>
 </button>
@@ -1122,7 +1161,7 @@
 </div>
 </div>
 <!-- Hidden File Input -->
-<input accept=".json" id="importButton" style="display: none;" type="file">
+<input accept=".json" id="importButton" style="display: none;" type="file"/>
 <!-- Loading Overlay -->
 <div class="loading-overlay" id="loadingOverlay">
 <div class="loading-spinner">
@@ -1130,8 +1169,6 @@
 <p>Loading content...</p>
 </div>
 </div>
-<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
 <script src="script.js"></script>
-</input></body>
+</body>
 </html>
